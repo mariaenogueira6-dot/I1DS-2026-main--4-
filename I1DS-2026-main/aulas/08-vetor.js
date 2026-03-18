@@ -1,6 +1,6 @@
 //Criando variaveis do tipo array (Vetor)
 
-var dinos = ["Tiranousauro Rex", "Estegoussauro", "Brontossaurro"]
+var dinos = ["Tiranousauro Rex", "Estegoussauro", "Brontossaurro"];
 
 //Imprimindo os dados em forma de linha
 console.log(dinos);
@@ -20,11 +20,11 @@ console.table(dinos);
 console.log("O vetor agora tem", dinos.length, "elementos");
 
 //unshift -> Adiciona um novo elemento no inicio da fila
-dinos.unshift("Velociraptor")
+dinos.unshift("Velociraptor");
 console.table(dinos);
 console.log("O vetor agora tem", dinos.length, "elementos");
 
 //Obter um elemento a partir do indice
 console.log("1 posição:", dinos[0]);
-console.log("4 posição:", dinos [3]);
-console.log("20 posição (não existe)", dinos [20])
+console.log("4 posição:", dinos[3]);
+console.log("20 posição (não existe)", dinos[20]);
